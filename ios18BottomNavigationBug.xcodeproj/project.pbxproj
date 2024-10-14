@@ -8,27 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		25D904742CBA5C8D007705FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D904732CBA5C8D007705FE /* AppDelegate.m */; };
-		25D904772CBA5C8D007705FE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D904762CBA5C8D007705FE /* SceneDelegate.m */; };
-		25D9047A2CBA5C8D007705FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D904792CBA5C8D007705FE /* ViewController.m */; };
 		25D9047D2CBA5C8D007705FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D9047B2CBA5C8D007705FE /* Main.storyboard */; };
 		25D9047F2CBA5C90007705FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D9047E2CBA5C90007705FE /* Assets.xcassets */; };
 		25D904822CBA5C90007705FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D904802CBA5C90007705FE /* LaunchScreen.storyboard */; };
 		25D904852CBA5C90007705FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D904842CBA5C90007705FE /* main.m */; };
+		25D904902CBA6D70007705FE /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9048F2CBA6D70007705FE /* MainTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25D9046F2CBA5C8D007705FE /* ios18BottomNavigationBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios18BottomNavigationBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D904722CBA5C8D007705FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25D904732CBA5C8D007705FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25D904752CBA5C8D007705FE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		25D904762CBA5C8D007705FE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		25D904782CBA5C8D007705FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25D904792CBA5C8D007705FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25D9047C2CBA5C8D007705FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25D9047E2CBA5C90007705FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25D904812CBA5C90007705FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25D904832CBA5C90007705FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D904842CBA5C90007705FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25D9048F2CBA6D70007705FE /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		25D904912CBA6F80007705FE /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +58,9 @@
 		25D904712CBA5C8D007705FE /* ios18BottomNavigationBug */ = {
 			isa = PBXGroup;
 			children = (
+				25D9048E2CBA6D39007705FE /* MainTabBarController */,
 				25D904722CBA5C8D007705FE /* AppDelegate.h */,
 				25D904732CBA5C8D007705FE /* AppDelegate.m */,
-				25D904752CBA5C8D007705FE /* SceneDelegate.h */,
-				25D904762CBA5C8D007705FE /* SceneDelegate.m */,
-				25D904782CBA5C8D007705FE /* ViewController.h */,
-				25D904792CBA5C8D007705FE /* ViewController.m */,
 				25D9047B2CBA5C8D007705FE /* Main.storyboard */,
 				25D9047E2CBA5C90007705FE /* Assets.xcassets */,
 				25D904802CBA5C90007705FE /* LaunchScreen.storyboard */,
@@ -74,6 +68,15 @@
 				25D904842CBA5C90007705FE /* main.m */,
 			);
 			path = ios18BottomNavigationBug;
+			sourceTree = "<group>";
+		};
+		25D9048E2CBA6D39007705FE /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				25D9048F2CBA6D70007705FE /* MainTabBarController.m */,
+				25D904912CBA6F80007705FE /* MainTabBarController.h */,
+			);
+			path = MainTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25D9047A2CBA5C8D007705FE /* ViewController.m in Sources */,
 				25D904742CBA5C8D007705FE /* AppDelegate.m in Sources */,
 				25D904852CBA5C90007705FE /* main.m in Sources */,
-				25D904772CBA5C8D007705FE /* SceneDelegate.m in Sources */,
+				25D904902CBA6D70007705FE /* MainTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
